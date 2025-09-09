@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "package.json", "use": "@vercel/static-build" }
+  ],
+  "scripts": {
+    "build": "npm run build"
+  },
+  "env": {
+    "REACT_APP_BACKEND_URL": "https://stripe-backend.onrender.com"
+  }
+}
